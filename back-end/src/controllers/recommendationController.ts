@@ -44,7 +44,7 @@ async function get(req: Request, res: Response) {
 async function getTop(req: Request, res: Response) {
   const { amount } = req.params;
 
-  const recommendations = await recommendationService.getTop(+amount);
+  const recommendations = await recommendationService.getTop(Number(amount));
   res.send(recommendations);
 }
 
