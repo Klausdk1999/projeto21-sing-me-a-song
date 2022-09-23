@@ -7,7 +7,7 @@
   "scripts": {
     "test": "dotenv -e .env.test prisma migrate dev && dotenv -e .env.test -- jest -i --coverage",
     "dev": "dotenv -e .env.test nodemon src/server.ts",
-    "test:unit": "dotenv -e .env.test jest -- -i --coverage --testPathPattern=tests/unit",
+    "test:unit": "dotenv -e .env.test jest -- -i --coverage --testPathPattern=tests/unitary",
     "test:integration": "dotenv -e .env.test jest -- -i --coverage --testPathPattern=tests/integration"
   },
   "keywords": [],
