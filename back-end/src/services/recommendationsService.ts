@@ -88,7 +88,8 @@ export const recommendationService = {
   downvote,
   getRandom,
   get,
-  getScoreFilter,
   getById: getByIdOrFail,
   getTop,
+  getByScore,
+  getScoreFilter
 };

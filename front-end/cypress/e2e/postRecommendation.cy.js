@@ -14,7 +14,7 @@ describe("HomePage: test in post/recommendation and get/recommendation", () => {
     it("Should Post Video", () => {
         cy.visit("http://localhost:3000");
 
-        cy.request("POST", "http://localhost:4000/e2e/cleardatabase");
+        cy.request("POST", "http://localhost:5000/e2e/cleardatabase");
 
 
         cy.get("#name").type(`${name}`);

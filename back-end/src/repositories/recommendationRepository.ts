@@ -26,7 +26,7 @@ function findAll(findAllWhere?: FindAllWhere) {
 function getAmountByScore(take: number) {
   return prisma.recommendation.findMany({
     orderBy: { score: "desc" },
-    take
+    take,
   });
 }
 
