@@ -1,13 +1,13 @@
 import { faker } from "@faker-js/faker"
 
 const name =  faker.lorem.words(3);
-const youtubeLink = "https://www.youtube.com/watch?v=OMOGaugKpzs"
+const youtubeLink = "https://youtu.be/mpaPBCBjSVc"
 
 const name2 =  faker.lorem.words(2);
-const youtubeLink2 = "https://www.youtube.com/watch?v=djV11Xbc914"
+const youtubeLink2 = "https://youtu.be/6k8es2BNloE"
 
 const name3 =  faker.lorem.words(4);
-const youtubeLink3 = "https://www.youtube.com/watch?v=17ozSeGw-fY"
+const youtubeLink3 = "https://youtu.be/6yCIDkFI7ew"
 
 describe("HomePage: test in post/recommendation and get/recommendation", () => {
 
