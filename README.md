@@ -4,6 +4,8 @@ Sing me a song is an application for anonymous song recommendation. The more peo
 
 This repository is split between front-end and back-end.
 
+Inside the folders you will find the .env files, they are used to set some global variables, fill them with your infos, your postgress url, your prefered port ...
+
 To run the React application you should open the terminal on the front-end folder, and run: 
 
 `npm i` to install the needed node modules;
@@ -133,6 +135,8 @@ Portuguese:
 Sing me a song é um aplicativo para recomendação de músicas anônimas. Quanto mais pessoas gostarem de uma recomendação, maior a probabilidade de ser recomendado para outras pessoas 🙂
 
 Este repositório é dividido entre front-end e back-end.
+
+Dentro das pastas você vai encontrar os arquivos .env, você deve preenche-los com os dados pedidos, como sua URL do postgres e PORT.
 
 Para executar o aplicativo React, você deve abrir o terminal na pasta front-end e executar:
 
