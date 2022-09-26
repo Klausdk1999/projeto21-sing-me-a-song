@@ -94,3 +94,15 @@ A API possui as seguintes rotas:
     	...
     ]
     ```
+    
+- **TESTES   `unitarios`**
+
+    Execute o comando 'npm run test unit' dentro da pasta *back-end*
+
+- **TESTES   `integração`**
+
+    Execute o comando 'npm run test integration' dentro da pasta *back-end*
+   
+- **TESTES   `End to End (E2E)`**
+
+    Execute o comando 'npx cypress open' dentro da pasta *front-end* para que este teste funcione corretamente, é necessário estar rodando o back end na porta 4000, com o comando 'npm run dev', e o front end com o 'npm run start' na porta 3000
